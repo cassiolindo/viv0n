@@ -23,7 +23,7 @@ puts "Mateus Alves "
 puts "\n"
 
 
- api = Shodan::Shodan.new("INSERT YOUR API SHODAN")
+ api = Shodan::Shodan.new("ydlDFEesB6dmjdw3YBBaG4eCFN8gM7j0")
 		result = api.search("org:'Vivo' /wizard ")
 		result['matches'].each{ |host|
 		host_ip =  host['ip_str']
